@@ -36,7 +36,7 @@ export default function App() {
     }
 
     return (
-      <section>
+      <section className="episode-details">
         <h2>Episode {selectedEpisode.id}</h2>
         <h3 className="episode-details-episode-title">
           {selectedEpisode.title}
