@@ -1,0 +1,29 @@
+.episodes {
+  flex-basis: 18rem;
+}
+
+.episodes-list {
+  padding: 0;
+  list-style: none;
+}
+
+.episode {
+  position: relative;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  transition: background-color 150ms;
+}
+
+.episode:not(:last-child)::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "";
+  height: 1px;
+  background-color: #d3d3d336;
+}
+
+.episode:hover {
+  background-color: #d3d3d34d;
+}

@@ -1,0 +1,24 @@
+.episode-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  flex: 1;
+}
+
+.episode-details h3 {
+  font-size: 1.2rem;
+}
+
+.episode-description {
+  margin-bottom: 0.5rem;
+}
+
+.watch-now {
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 150ms;
+}
+
+.watch-now:hover {
+  background-color: lightblue;
+}
